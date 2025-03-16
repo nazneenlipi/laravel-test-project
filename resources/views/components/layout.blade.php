@@ -7,9 +7,9 @@
 </head>
 <body >
     <div>
-        @include('layouts.header')
+        <x-header />  
         {{ $slot }}
-        @include('layouts.footer')
+        <x-footer />
     </div>
 </body>
 </html>

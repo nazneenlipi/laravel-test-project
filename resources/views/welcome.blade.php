@@ -1,14 +1,9 @@
-{{-- @extends('layouts.app')
-
-@section('title', 'Home page')
-
-@section('content')
-    @include('sections.banner')  
-    @include('sections.services')
-@endsection --}}
-
 <x-layout>
- <div class="h-52">
-  <h1 class="uppercase text-3xl text-black font-bold text-center flex justify-center items-center">  hello there</h1>
- </div>
+    <x-section>
+        hii 1st one
+    </x-section>
+    <x-section>
+        hii 2st one
+    </x-section>
+    <x-banner/>
 </x-layout>

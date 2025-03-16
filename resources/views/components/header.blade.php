@@ -1,4 +1,4 @@
-<header class="flex p-10 justify-center">
+<header class="flex p-10 justify-center bg-amber-900 text-white">
     <nav>
         <ul class="flex justify-around ">
             <li><a href="{{ url('/') }}">Home</a></li>
